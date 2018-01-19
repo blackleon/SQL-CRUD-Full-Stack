@@ -1,0 +1,49 @@
+<html>
+<!--Celilhan Karaarslan-->
+	<head>
+		<title>K4E Uye Sistemi-Guncelle</title>
+	</head>
+
+	<body>
+		<center>
+			<h1> K4E Uye Sistemi </h1>
+			
+			<h3>
+			<a href = "index.html"> Goster</a>
+			&nbsp&nbsp&nbsp&nbsp&nbsp
+			<a href = "ekle.html"> Ekle</a>
+			&nbsp&nbsp&nbsp&nbsp&nbsp
+			<a href = "guncelle.html"> Guncelle</a>
+			&nbsp&nbsp&nbsp&nbsp&nbsp
+			<a href = "sil.html"> Sil</a>
+			</h3>
+			
+			<br>
+			
+			<div align="center">
+			<iframe frameborder="0" name="votar" width="200" height="40"></iframe>
+			</div>
+			<form action="servisler/guncelle.php" method="post" target="votar">
+			Ogrenci No: <br>
+			<input type="text" name="ogrno" required><br><br>
+			
+			Ad Soyad: <br>
+			<input type="text" name="adsoyad" required><br><br>
+
+			Bolum: <br>
+			<input type="text" name="bolum" required><br><br>
+			
+			Ekip: <br>
+			<input type="text" name="ekip" required><br><br>
+
+			Telefon:<br>
+			<input type="text" name="tel" required><br><br>
+			
+			Mail:<br>
+			<input type="text" name="mail" required> <br><br>
+
+		              <input type="submit" value="Guncelle"><br>
+			</form>
+		</center>
+	</body>
+</html>
