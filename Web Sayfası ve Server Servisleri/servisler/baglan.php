@@ -1,3 +1,4 @@
 <?php
-$link = mysqli_connect("localhost", "celilhan", "celilhan", "uyeler");
+//celilhan karaarslan
+$link = mysqli_connect("localhost", "root", "root", "uyeler");
 ?>
