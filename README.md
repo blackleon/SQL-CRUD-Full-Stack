@@ -10,7 +10,7 @@
 Özet
 
   Front end bir web sayfası tasarlanmıştır. Bu web sayfasında formlar aracılığı ile kullanıcı tarafından girilen bilgiler, kurulan web server üzerinde yazılmış backend servisler yardımıyla database üzerinde data manipülasyonu (CRUD) işlemleri için kullanılmıştır.
-Sistem K4E Elektrikli Araç Ekibinin üye kayırlarını tutmaktadır.
+Sistem K4E Elektrikli Araç Ekibinin üye kayıtlarını tutmaktadır.
 Front end kısmında HTML, Back end kısmında PHP ve database kısmında mySQL kullanılmıştır.
 
 
